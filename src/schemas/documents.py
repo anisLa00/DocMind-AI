@@ -12,6 +12,9 @@ class DocumentModel(BaseModel):
     file_type: str
     file_size: int
     status: str
+    error_message: str | None = None
+    page_count: int
+    chunk_count: int
     created_at: datetime
     updated_at: datetime
 
