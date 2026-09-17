@@ -7,8 +7,8 @@ splits it into overlapping chunks, embeds them into a pgvector index, and then
 answers your questions using only the passages that actually match — with
 citations pointing back to the page they came from.
 
-Built with **FastAPI**, **PostgreSQL + pgvector**, **SQLAlchemy 2 (async)**,
-**Redis**, and **Claude**.
+Built with **FastAPI**, **PostgreSQL + pgvector**, **SQLAlchemy 2 (async)**
+and **Redis**.
 
 ---
 
