@@ -8,7 +8,7 @@ answers your questions using only the passages that actually match — with
 citations pointing back to the page they came from.
 
 Built with **FastAPI**, **PostgreSQL + pgvector**, **SQLAlchemy 2 (async)**
-and **Redis**.
+**Redis**,and **Claude** .
 
 ---
 
