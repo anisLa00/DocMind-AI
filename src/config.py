@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     ALGORITHM: str
     ACCESS_TOKEN_EXPIRE_MINUTES: int
     REDIS_URL:str
+    REFRESH_TOKEN_EXPIRE_MINUTES:int
 
 
     model_config = SettingsConfigDict(
